@@ -34,7 +34,7 @@ input {
 }
 
 .paddingTop {
-	padding-top: 20px;
+	padding-top: 5px;
 }
 
 .own-message {
@@ -75,7 +75,6 @@ input {
 	padding: 5px;
 }
 
-
 .user-list-btn {
 	position: relative;
 	border: 1px solid black;
@@ -106,6 +105,14 @@ input {
 
 .user-div:nth-last-child(1) {
 	border-bottom: none;
+}
+
+.unread-count {
+	display: flex;
+  font-size: 0.8em;
+  color: grey;
+  margin-top: auto;
+	margin-bottom: 10px;
 }
 
 .emoji-picker-popup {
